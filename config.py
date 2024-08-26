@@ -24,8 +24,7 @@ BOT_TOKEN = environ.get("BOT_TOKEN", "")
 
 PICS = (environ.get('PICS', 'https://wallpapers.com/images/featured/dark-anime-pictures-iwmu3b0sun9r6789.webp')).split() # Bot Start Picture
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5851158054').split()]
-BOT_USERNAME = environ.get("BOT_USERNAME", "
-EtaMovan_Bot") # without @
+BOT_USERNAME = environ.get("BOT_USERNAME", "EtaMovan_Bot") # without @
 PORT = environ.get("PORT", "8080")
 
 # Clone Info :-
